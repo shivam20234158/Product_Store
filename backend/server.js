@@ -1,8 +1,10 @@
+import { aj } from "./lib/arcjet.js";
 import express from "express";
 import helmet from "helmet";
 import morgan from "morgan";
 import cors from "cors";
 import dotenv from "dotenv"
+
 
 import productRoutes from "./routes/productRoutes.js";
 import {sql} from "./config/db.js";
